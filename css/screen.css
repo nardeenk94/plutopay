@@ -1,0 +1,39 @@
+@media (max-width: 576px) {
+
+  .orbit-wrapper {
+    max-width: 320px;
+    aspect-ratio: 348 / 1035;
+  }
+
+.planet {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+.circle-sec {
+  padding: 20px 0;
+}
+
+.orbit-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  height: 150px;
+}
+}
+
+@media (max-width: 576px) {
+    .ultimate-text{
+    font-size: 27px;
+  }
+  .chicago-text{
+  font-size: 30px;
+
+}
+}
+
+@media (max-width: 576px) {
+  .big-text{
+    font-size: 20px;
+  }
+}

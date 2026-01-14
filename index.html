@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plutopay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/MotionPathPlugin.min.js"></script>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="" width="79">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- القوائم هتظهر على الشاشات الكبيرة  -->
+            <div class="d-none d-lg-block position-absolute start-50 translate-middle-x">
+                <ul class="navbar-nav mb-2 mb-lg-0 gap-2 d-flex flex-row">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#how-it-works">How it works</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#transform-your-business">Transform your
+                            business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- القوائم  هتظهر على كل الشاشات ما عدا الكبيرة   -->
+            <div class="collapse navbar-collapse d-lg-none" id="navbarSupportedContent">
+                <ul class="navbar-nav mt-3 gap-2 d-flex flex-column text-center">
+                    <li class="nav-item"><a class="nav-link active" href="#how-it-works">How it works</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#transform-your-business">Transform your
+                            business</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- first section -->
+    <section class="color-sec">
+        <div class="container">
+            <div class="hero-sec justify-content-center align-items-center pt-3">
+                <img class="img-fluid" src="img/tablet pic .png" alt="">
+            </div>
+            <div class="row mt-lg-4 mx-lg-4 pt-5">
+                <div class="col-lg-8 col-12 align-items-center">
+                    <p class="big-text mb-4 ">Proudly made in USA to flexible payments, clear insights, and seamless
+                        automation
+                    </p>
+                    <div class="pt-3">
+                        <a href="contact us.html"
+                            class="text-decoration-none text-white rounded-3 contact-btn d-flex justify-content-center align-items-center">Contact
+                            us
+                            <i class="bi bi-arrow-right ms-2"></i>
+
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-12">
+                    <img class="object-fit-cover img-fluid" src="img/pos.png" alt="" width="400" height="249">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- second section -->
+    <section class="color-sec pt-2 pb-4" id="how-it-works">
+        <div class="container">
+            <div class="row pt-5 platform-sq mx-lg-4 p-lg-5">
+                <div class="col-lg-6 col-12 p-0">
+                    <p class="platform-titel px-4">One platform to pay, get paid, and manage <span
+                            class="platform-titel-color">your operations</span>
+                    </p>
+                    <p class="platform-text mx-4">
+                        Manage payments, track activity, and automate everyday workflows all from one simple platform
+                        designed to support businesses of any size.
+                    </p>
+                    <div class="pt-lg-5 d-none d-lg-flex justify-content-end   ">
+                        <img class="img-fluid" src="img/platform pic.png" alt="" width="420" height="187.5">
+                    </div>
+                    <div class="pt-lg-5 d-md-block d-lg-none d-flex justify-content-center text-center">
+                        <img class="img-fluid" src="img/platform pic small.png" alt="" width="320" height="187.5">
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-6 p-0 d-flex justify-content-center">
+                    <div class="background-color d-flex justify-content-center align-items-center">
+                        <ul class="list-unstyled d-flex flex-column align-items-center m-0">
+                            <li class="rec-color d-flex  align-items-center gap-2 mb-2">
+                                <img src="img/icon-1.png" width="39" height="39" alt=" icon">
+                                <p class="rec-text m-0">Invoice creation & payment tracking</p>
+                            </li>
+                            <li class="rec-color d-flex  align-items-center gap-2 mb-2">
+                                <img src="img/icon-2.png" width="39" height="39" alt=" icon">
+                                <p class="rec-text m-0">Recurring payments & subscriptions</p>
+                            </li>
+                            <li class="rec-color d-flex align-items-center gap-2 mb-2">
+                                <img src="img/icon-3.png" width="39" height="39" alt=" icon">
+                                <p class="rec-text m-0">Customer payment management</p>
+                            </li>
+                            <li class="rec-color d-flex  align-items-center gap-2 mb-2">
+                                <img src="img/icon-4.png" width="39" height="39" alt=" icon">
+                                <p class="rec-text m-0">Real-time transaction insights</p>
+                            </li>
+                            <li class="rec-color d-flex  align-items-center gap-2 mb-2">
+                                <img src="img/icon-5.png" width="39" height="39" alt=" icon">
+                                <p class="rec-text m-0">Automated payouts & settlements</p>
+                            </li>
+                            <li class="rec-color d-flex  align-items-center gap-2">
+                                <img src="img/icon-6.png" width="39" height="39" alt=" icon">
+                                <p class="rec-text m-0">Financial reports & reconciliation</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- third section -->
+    <section class="powerful-color pt-2">
+        <div class="container">
+            <div class="row justify-content-end align-items-center">
+                <div class="col-lg-5 col-12 d-flex justify-content-center ">
+                    <img class="img-fluid" src="img/sofa.png" alt="">
+                </div>
+                <div class="col-lg-7 col-12 pt-4">
+                    <p class="big-text">Powerful payments for furniture, adaptable for any business</p>
+                    <p class="powerful-text">Designed around real furniture workflows, PlutoPay scales effortlessly
+                        across
+                        industries,
+                        channels, and business needs.</p>
+                </div>
+            </div>
+            <div class="screens-pic">
+                <img class="img-fluid" src="img/screens pic.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- fourth section -->
+    <section class="color-sec py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-12">
+                    <div class="row">
+                        <div class="col-lg-8 col-12">
+                            <p class="big-text">Essential tools that make PlutoPay work smarter</p>
+                            <p>Get started with PlutoPay’s built-in, user-friendly features</p>
+                        </div>
+                        <div class="col-12">
+                            <div class="row ">
+                                <div class="col-lg-3 col-12">
+                                    <div class="row rfid-sq px-2 py-3 mb-3">
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <img src="img/RFID pic.png" alt="" width="24" height="24">
+                                        </div>
+                                        <div class="col-9 p-0">
+                                            <p class="m-0 fw-bold">RFID Scan</p>
+                                            <p class="m-0 essential-text pt-2">
+                                                Instantly track products and keep inventory updated.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row px-2 py-3 mb-3" style="width: fit-content;">
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <img src="img/Protection.png" alt="" width="24" height="24">
+                                        </div>
+                                        <div class="col-9 p-0">
+                                            <p class="m-0 fw-bold">Protection System</p>
+                                            <p class="m-0 essential-text pt-2">
+                                                Monitor activity and ensure smooth operations.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-12 text-center">
+                                    <img class="img-fluid rounded-3" src="img/Containe.png" alt="play video">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fifth section -->
+    <section class="color-sec py-5">
+        <div class="container">
+            <div class="row justify-content-center mx-auto">
+                <div class="col-lg-5 col-12">
+                    <img src="img/Real-time.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-5 col-12 py-2">
+                    <p class="text-uppercase">SMART Plutopay</p>
+                    <p class="big-text">Real-time sales tracking for better business decisions</p>
+                    <p class="smart-text">Monitor your daily sales and performance through a clear, live dashboard
+                        designed
+                        to keep everything
+                        simple and visible.</p>
+                    <p class="smart-text py-3">Track sales, revenue, and products effortlessly.</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-start gap-2 pb-4">
+                            <img src="img/check.png" alt="" width="24" height="24">
+                            <span>Live sales and revenue insights</span>
+                        </li>
+                        <li class="d-flex align-items-start gap-2 pb-4">
+                            <img src="img/check.png" alt="" width="24" height="24">
+                            <span>Clear transaction and product trends</span>
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <img src="img/check.png" alt="" width="24" height="24">
+                            <span>Simple reports that grow with your business</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sixth section -->
+    <section class="color-sec mx-auto circle-sec" id="transform-your-business">
+        <div class="container orbit-wrapper">
+            <div class="circle mx-auto d-flex justify-content-center align-items-center text-center">
+
+                <!-- الدائرة الصغيرة داخل الكبيرة -->
+                <div class="circle-small d-flex justify-content-center align-items-center text-center">
+                    <p class="transform-text p-3">Transform your business with smarter payments </p>
+                </div>
+                <svg viewBox="0 0 1000 350" class="orbit-svg">
+                    <path id="orbitPath" d="M 100 175
+                        A 400 140 0 1 1 900 175
+                        A 400 140 0 1 1 100 175" fill="none" />
+                </svg>
+                <img src="img/Transform.png" class="planet">
+                <img src="img/Transform2.png" class="planet">
+                <img src="img/Transform3.png" class="planet">
+                <img src="img/Transform4.png" class="planet">
+                <img src="img/Transform5.png" class="planet">
+                <img src="img/Transform6.png" class="planet">
+                <img src="img/Transform7.png" class="planet">
+            </div>
+        </div>
+    </section>
+    <!-- seventh section -->
+    <section class="madein-sec pb-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-12">
+                    <p class="big-text">Made in the USA. Built for United States Commerce.</p>
+                    <p class="madein-text">The Hydrogen of Your Business Space
+                        PlutoPay, is carefully crafted to come along your business with its complete set that provides
+                        secure payment transactions, helps you track your inventory, and gives you real insights to
+                        levitate your business.</p>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img class="img-fluid" src="img/USA.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer  -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row gap-2 justify-content-between mx-auto">
+                <div class="col-lg-2 col-12">
+                    <img src="img/logo.png" alt="" width="80">
+                    <p class="footer-text py-3">Intelligent point-of-sale with built-in security</p>
+                    <p class="footer-text ">Follow us:</p>
+                    <span class="social-icons ">
+                        <i class="fa-brands fa-telegram fs-3 me-2"></i>
+                        <i class="fa-brands fa-x-twitter fs-3 me-2"></i>
+                        <i class="fa-brands fa-pinterest fs-3 me-2"></i>
+                        <i class="fa-brands fa-behance fs-3 me-2"></i>
+                        <i class="fa-brands fa-dribbble fs-3"></i>
+                    </span>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <p class="footer-titel">Product</p>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-decoration-none text-dark pb-2">RFID Protection</a>
+                        <a href="#" class="text-decoration-none text-dark pb-2">AI Monitoring</a>
+                        <a href="#" class="text-decoration-none text-dark pb-2">Furniture Edition</a>
+                        <a href="#" class="text-decoration-none text-dark">Pricing</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <p class="footer-titel">Company</p>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-decoration-none text-dark pb-2">How it works</a>
+                        <a href="#" class="text-decoration-none text-dark pb-2">Transform your business</a>
+                        <a href="#" class="text-decoration-none text-dark">Contact us </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <p class="footer-titel">Legal</p>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-decoration-none text-dark pb-2">Privacy</a>
+                        <a href="#" class="text-decoration-none text-dark pb-2">Terms</a>
+                        <a href="#" class="text-decoration-none text-dark pb-2">Security</a>
+                        <a href="#" class="text-decoration-none text-dark">Support</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 d-flex align-items-center ">
+                <span class="sunmoon-mode rounded-3 py-2 px-3">
+                    <a href="#" class="text-dark"><i class="bi bi-brightness-low fs-3 rounded-3 px-1"></i></a>
+                    <a href="#" class="text-dark"><i class="bi bi-moon fs-3 px-1"></i></a>
+                </span>
+            </div>
+            <hr>
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <p class="copyright mb-0 text-center text-md-start">© 2025 Plutopay. All rights reserved.</p>
+                <span class="text-center">
+                    <a href="#"><i class="fa-brands fa-apple-pay text-dark fs-3 me-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-pay text-dark fs-3 me-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-cc-paypal text-dark fs-3 me-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-cc-visa text-dark fs-3 me-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-cc-mastercard text-dark fs-3"></i></a>
+                </span>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <img class="img-fluid" src="img/big-logo.png" alt="Plutopay Logo">
+        </div>
+    </footer>
+
+</body>
+
+
+<script>
+    gsap.registerPlugin(MotionPathPlugin);
+
+    gsap.utils.toArray(".planet").forEach((planet, i) => {
+        gsap.to(planet, {
+            duration: 80,          // بطيئة جدًا
+            repeat: -1,
+            ease: "none",
+            motionPath: {
+                path: "#orbitPath",
+                align: "#orbitPath",
+                alignOrigin: [0.5, 0.5],
+                start: i / 7,        // توزيع الصور
+                end: i / 7 + 1
+            }
+        });
+    });
+    gsap.utils.toArray(".planet").forEach((planet) => {
+
+        planet.addEventListener("mouseenter", () => {
+            gsap.to(planet, {
+                scale: 1.3,
+                duration: 0.3,
+                ease: "power2.out"
+            });
+        });
+
+        planet.addEventListener("mouseleave", () => {
+            gsap.to(planet, {
+                scale: 1,
+                duration: 0.3,
+                ease: "power2.out"
+            });
+        });
+
+    });
+</script>
+
+
+
+</html>

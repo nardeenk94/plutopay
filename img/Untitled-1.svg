@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600.71 601.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9ddce;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-6 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #f6f5f0;
+      }
+
+      .cls-6 {
+        stroke: #efebd9;
+        stroke-width: 9.39px;
+      }
+
+      .cls-4 {
+        fill: #0382f7;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="m300.35,15.52h0c157.63,0,285.04,127.82,285.04,285.04h0c0,157.63-127.82,285.04-285.04,285.04h0c-157.63,0-285.04-127.82-285.04-285.04h0c0-157.22,127.82-285.04,285.04-285.04Z"/>
+  <path class="cls-1" d="m300.15,0h0c165.8,0,300.56,134.35,300.56,300.56h0c0,165.8-134.35,300.56-300.56,300.56h0C134.35,600.71,0,466.36,0,300.56h0C0,134.35,134.35,0,300.15,0Z"/>
+  <path class="cls-3" d="m300.35,20.01h0c154.77,0,280.55,125.37,280.55,280.55h0c0,154.77-125.37,280.55-280.55,280.55h0c-154.77,0-280.55-125.37-280.55-280.55h0C20.21,145.38,145.58,20.01,300.35,20.01Z"/>
+  <path class="cls-6" d="m300.35,20.01h0c154.77,0,280.55,125.37,280.55,280.55h0c0,154.77-125.37,280.55-280.55,280.55h0c-154.77,0-280.55-125.37-280.55-280.55h0C20.21,145.38,145.58,20.01,300.35,20.01Z"/>
+  <rect class="cls-2" x="16.54" y="93.11" width="567.63" height="414.9"/>
+  <image class="cls-5" width="1184" height="864" transform="translate(58.6 124.14) scale(.41)" xlink:href="C:\Users\narde\Downloads\dadce78bfd81a2e81d9da438000205b936cb387c (1).png"/>
+</svg>

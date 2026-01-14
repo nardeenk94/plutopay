@@ -1,0 +1,253 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.nav-link{
+    font-size: 13.7px;
+    font-weight: 400;
+    color: #222222;
+    line-height: 21px;
+}
+.big-text{
+    max-width: 667px;
+    font-size: 41.8px;
+    line-height: 48.4px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: -0.88px;
+}
+.contact-btn{
+    width: 148px;
+    height: 44px;
+    background-color: #826650;
+}
+.color-sec{
+    background-color: #F7F6F4;
+}
+.platform-sq{
+    border-radius: 40px;
+    background-color:#FFFDF9 ;
+}
+.platform-titel{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35.2px;
+    letter-spacing: -0.64px;
+}
+.platform-titel-color{
+    color: #85817A;
+}
+.platform-text{
+    font-size: 15.4px;
+    line-height: 25.6px;
+    font-weight: 400;
+}
+.background-color {
+    width: 90%; 
+    max-width: 520px;
+    padding: 50px 20px;
+    border-radius: 24px;
+    background-color: #F3F2ED;
+}
+
+.rec-color {
+    background-color: #fff;
+    border: 1px solid #E6E8EC;
+    border-radius: 8px;
+    padding: 10px 12px;
+    width: fit-content;  
+}
+
+.rec-text{
+    font-size: 12.7px;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+.powerful-color{
+    background-color: #EEE9DF;
+}
+.powerful-text{
+    font-size: 15.4px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #55534E;
+}
+.rfid-sq {
+    background-color: #fff;
+    border: 1px solid #6341002B;
+    border-radius: 8px;
+    width: fit-content;  
+}
+
+
+.essential-text{
+    font-size: 13px;
+    font-weight: 500;
+    color: #828282;
+    line-height: 16px;
+}
+.smart-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    color: #6B7280;
+}
+
+
+.payments-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+}
+
+.circle {
+  width: 80%;
+  max-width: 1035px;
+  aspect-ratio: 1035 / 348;
+  border: 1px solid #E8DAC180;
+  border-radius: 50%;
+}
+
+.circle-small {
+  width: 92%;
+  max-width: 951px;
+  aspect-ratio: 951 / 320;
+  border: 1px solid #E8DAC180;
+  border-radius: 50%;
+}
+.transform-text {
+  font-size: clamp(16px, 3vw, 57.5px);
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  line-height: 1.2;
+}
+.circle-sec {
+  padding: 150px 0;
+}
+
+.orbit-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  height: 350px;
+}
+
+.orbit-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.planet {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
+.planet:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.madein-sec{
+  background-color: #F8F7F5;
+}
+.madein-text{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #6B7280;
+}
+.footer-text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6B6B6B;
+}
+.footer-titel{
+  color: #7B5308;
+}
+.bi-brightness-low{
+  border: #EEE9DF solid ;
+}
+.sunmoon-mode{
+  background-color: #F9F9F9;
+}
+.copyright{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+/* contact us page style  */
+.connect-side{
+  padding-top: 150px;
+}
+.connect-text{
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 20.8px;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  color: #826650;
+}
+.ultimate-text{
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 58px;
+}
+.email{
+  font-size: 22.9px;
+  font-weight: 300;
+}
+.circle-color{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #E9DDCE;
+}
+.form-bg{
+  background-color: #ffff;
+  border:1px #E9DDCE solid ;
+  border-radius: 20px;
+}
+.form-title{
+  font-size: 32.5px;
+  font-weight: 700;
+}
+.form-control{
+  background-color: #F3F2ED;
+  border: 1px solid #E9DDCE;
+  border-radius: 12px;
+}
+.send-btn{
+  width: 100%;
+  height: 60px;
+  background-color: #826650;
+  border-radius: 8px;
+}
+.send-text{
+  font-weight: 700;
+  font-size: 15.4px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.chicago-pic {
+    background-image: url('../img/chicago.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+.chicago-text{
+  font-size: 40px;
+  padding-top: 350px;
+  padding-left: 100px;
+  z-index: 3;
+  background: linear-gradient(to right, #E9DDCE, #57514A);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
